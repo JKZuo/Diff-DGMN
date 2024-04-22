@@ -6,15 +6,15 @@ The code has been tested running under Python 3.8.13.
 
 The required packages are as follows: 
 - Python == 3.8.13
-- 
+  
 - torch == 1.12.1
-- 
+  
 - torchsde == 0.2.6
-- 
+  
 - torch_geometric == 2.3.1
-- 
+  
 - pandas == 2.0.3
-- 
+  
 - numpy == 1.23.3
 
 ## Running
