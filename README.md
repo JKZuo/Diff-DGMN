@@ -1,4 +1,4 @@
-# Diff-DGMN
+# Diff-DGMN (更新中~Updating)
 Diff-DGMN: A Diffusion-based Dual Graph Multi-attention Network for POI Recommendation
 
 ## Requirements
