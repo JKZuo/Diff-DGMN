@@ -1,6 +1,10 @@
 # Diff-DGMN (更新中~Updating)
 Diff-DGMN: A Diffusion-based Dual Graph Multi-attention Network for POI Recommendation
 
+-  Dual-graph-driven Representation: Direction-aware Sequence Graph Multi-scale Representation Module (SeqGraphRep) and Global-based Distance Graph Geographical Representation Module (DisGraphRep).
+-  Novel Diffusion-based User Preference Sampling (DiffGenerator): leverage the Variance-Preserving Stochastic Differential Equation (VP-SDE) to sample user future preferences by reverse-time generation.
+-  Pure (noise-free) Location Archetype Vector: capable of depicting the diffusion path from a source distribution to the target distribution and allowing for the exploration of evolving user interests.
+
 ## Requirements
 The code has been tested running under Python 3.8.
 
