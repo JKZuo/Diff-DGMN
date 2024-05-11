@@ -22,7 +22,8 @@ Due to the large datasets (the data file uploaded by GitHub cannot be larger tha
 
 https://pan.baidu.com/s/19NG8Vn3u4fhsUK1P_kEr0Q?pwd=poi1
 
-This folder (data/processed) contains 5 datasets, i.e., 
+This folder (data/processed) contains 5 datasets, including
+
 (1) IST (Istanbul in Turkey); 
 
 (2) JK (Jakarta in Indonesia); 
@@ -38,11 +39,10 @@ We also provided the raw files at (data/raw).
 All datasets are sourced from https://sites.google.com/site/yangdingqi/home/foursquare-dataset，where 5. Global-scale Check-in Dataset with User Social Networks. 
 
 This dataset includes long-term (about 22 months from Apr. 2012 to Jan. 2014) global-scale check-in data collected from Foursquare.
-
 The check-in dataset contains 22,809,624 check-ins by 114,324 users on 3,820,891 venues.
 
 ## Running
-**Attention: Please modify the datasets in your path: DATA_PATH = '../DiffDGMN/data/processed' in the gol.py file
+**Attention: Please modify the datasets in your path: DATA_PATH = '../DiffDGMN/data/processed' in the [gol.py file]
 
 Then, you can use the LA dataset as an example to run it as：
 
