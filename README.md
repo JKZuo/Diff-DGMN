@@ -20,7 +20,9 @@ The required packages are as follows:
 ## Data
 Due to the large datasets (the data file uploaded by GitHub cannot be larger than 25MB), you can download them through this Baidu Cloud link:
 
-https://pan.baidu.com/s/19NG8Vn3u4fhsUK1P_kEr0Q?pwd=poi1
+link: https://pan.baidu.com/s/1Tbjzi8qh7C0dHULoV5axjQ?pwd=diff 
+
+password: diff
 
 This folder (data/processed) contains 5 datasets, including
 
