@@ -51,7 +51,7 @@ The check-in dataset contains 22,809,624 check-ins by 114,324 users on 3,820,891
 Then, you can use the LA dataset as an example to run it as：
 
 ```shell
-nohup python main.py --dataset LA --gpu 0 --layer 2 --dp 0.4 > LA.log 2>&1 &
+nohup python main.py --dataset LA --gpu 0 --dp 0.4 > LA.log 2>&1 &
 ```
 
 
