@@ -48,7 +48,7 @@ The check-in dataset contains 22,809,624 check-ins by 114,324 users on 3,820,891
 ## Running
 **Attention: Please modify the datasets in your path: DATA_PATH = '../DiffDGMN/data/processed' in the **[gol.py]** file
 
-Then, you can use the LA dataset as an example to run it as：
+Then, you can use the small-scale LA dataset as an example to run it as：
 
 ```shell
 nohup python main.py --dataset LA --gpu 0 --dp 0.4 > LA.log 2>&1 &
