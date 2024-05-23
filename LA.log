@@ -1,0 +1,524 @@
+05/23 13:46  Loading from /home/zjk/DiffDGMN/data/processed/LA
+05/23 13:46  #Users: 965, #POIs: 2541, #Check-ins: 37181
+05/23 13:46  #Train: 28420, #Valid: 3671, #Test: 4125
+05/23 13:46  Distance Graph: #Edges: 67956, Avg. degree: 26.74
+05/23 13:46  Avg. visit: 38.53, Density: 0.015, Sparsity: 0.985
+05/23 13:46  Dropout probability: 0.4
+05/23 13:46  The Number of Parameters for the Diff-DGMN Model is 296256
+05/23 13:46  -------------------Start Training---------------------
+
+05/23 13:46  Batch 0 / 27, Total_loss: 7.88645 = Recloss: 7.57924 + Divloss: 1.53606
+05/23 13:47  Batch 13 / 27, Total_loss: 7.52065 = Recloss: 7.26328 + Divloss: 1.28687
+05/23 13:48  Batch 26 / 27, Total_loss: 7.00033 = Recloss: 6.76120 + Divloss: 1.19563
+05/23 13:48  Avg Epoch 0 / 100, Total_Loss: 7.74551 = Recloss: 7.47420 + Divloss: 1.35654
+05/23 13:48  Valid NDCG@5: 0.32768, Recall@5: 0.35549
+05/23 13:48  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.29493942596582606,
+ 'NDCG': array([0.26933333, 0.28294612, 0.2984915 , 0.30701565, 0.31405858]),
+ 'Recall': array([0.26933333, 0.29090909, 0.32557576, 0.35224242, 0.38012121])}
+05/23 13:48  Best valid Recall@5 at epoch 0
+
+05/23 13:49  Batch 0 / 27, Total_loss: 6.94116 = Recloss: 6.70195 + Divloss: 1.19606
+05/23 13:49  Batch 13 / 27, Total_loss: 6.29223 = Recloss: 6.05946 + Divloss: 1.16383
+05/23 13:50  Batch 26 / 27, Total_loss: 6.13205 = Recloss: 5.88550 + Divloss: 1.23272
+05/23 13:50  Avg Epoch 1 / 100, Total_Loss: 6.93184 = Recloss: 6.67539 + Divloss: 1.28221
+05/23 13:50  Valid NDCG@5: 0.37373, Recall@5: 0.40125
+05/23 13:51  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.329530863425178,
+ 'NDCG': array([0.30593939, 0.31970513, 0.33257322, 0.33970913, 0.34710437]),
+ 'Recall': array([0.30593939, 0.32775758, 0.35709091, 0.37890909, 0.408     ])}
+05/23 13:51  Best valid Recall@5 at epoch 1
+
+05/23 13:51  Batch 0 / 27, Total_loss: 5.88261 = Recloss: 5.62352 + Divloss: 1.29545
+05/23 13:51  Batch 13 / 27, Total_loss: 5.69166 = Recloss: 5.47499 + Divloss: 1.08334
+05/23 13:52  Batch 26 / 27, Total_loss: 5.47046 = Recloss: 5.21407 + Divloss: 1.28195
+05/23 13:52  Avg Epoch 2 / 100, Total_Loss: 6.15954 = Recloss: 5.92030 + Divloss: 1.19623
+05/23 13:52  Valid NDCG@5: 0.43768, Recall@5: 0.46554
+05/23 13:53  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.3830097339557792,
+ 'NDCG': array([0.35951515, 0.37297499, 0.38562363, 0.39262153, 0.40102806]),
+ 'Recall': array([0.35951515, 0.38084848, 0.40921212, 0.43054545, 0.46424242])}
+05/23 13:53  Best valid Recall@5 at epoch 2
+
+05/23 13:53  Batch 0 / 27, Total_loss: 5.52040 = Recloss: 5.31187 + Divloss: 1.04264
+05/23 13:53  Batch 13 / 27, Total_loss: 5.11605 = Recloss: 4.91334 + Divloss: 1.01353
+05/23 13:54  Batch 26 / 27, Total_loss: 5.08177 = Recloss: 4.88646 + Divloss: 0.97657
+05/23 13:54  Avg Epoch 3 / 100, Total_Loss: 5.63210 = Recloss: 5.40925 + Divloss: 1.11428
+05/23 13:54  Valid NDCG@5: 0.47580, Recall@5: 0.50177
+05/23 13:55  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.41154366109961327,
+ 'NDCG': array([0.38375758, 0.40257075, 0.41526277, 0.42296011, 0.43067995]),
+ 'Recall': array([0.38375758, 0.41357576, 0.44218182, 0.46618182, 0.49672727])}
+05/23 13:55  Best valid Recall@5 at epoch 3
+
+05/23 13:55  Batch 0 / 27, Total_loss: 5.06620 = Recloss: 4.82356 + Divloss: 1.21318
+05/23 13:55  Batch 13 / 27, Total_loss: 4.86439 = Recloss: 4.64338 + Divloss: 1.10504
+05/23 13:56  Batch 26 / 27, Total_loss: 4.81881 = Recloss: 4.63302 + Divloss: 0.92895
+05/23 13:56  Avg Epoch 4 / 100, Total_Loss: 5.27818 = Recloss: 5.06571 + Divloss: 1.06235
+05/23 13:56  Valid NDCG@5: 0.50509, Recall@5: 0.52928
+05/23 13:57  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.4405026844479698,
+ 'NDCG': array([0.41624242, 0.43260836, 0.44253809, 0.45054649, 0.45787396]),
+ 'Recall': array([0.41624242, 0.44218182, 0.46448485, 0.48921212, 0.51830303])}
+05/23 13:57  Best valid Recall@5 at epoch 4
+
+05/23 13:57  Batch 0 / 27, Total_loss: 4.62462 = Recloss: 4.43951 + Divloss: 0.92554
+05/23 13:58  Batch 13 / 27, Total_loss: 4.71864 = Recloss: 4.52439 + Divloss: 0.97122
+05/23 13:58  Batch 26 / 27, Total_loss: 4.48743 = Recloss: 4.30688 + Divloss: 0.90276
+05/23 13:59  Avg Epoch 5 / 100, Total_Loss: 5.02794 = Recloss: 4.82548 + Divloss: 1.01228
+05/23 13:59  Valid NDCG@5: 0.52675, Recall@5: 0.55217
+05/23 13:59  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.4565542796582756,
+ 'NDCG': array([0.43539394, 0.44518291, 0.45898447, 0.466272  , 0.47382521]),
+ 'Recall': array([0.43539394, 0.45090909, 0.48193939, 0.50424242, 0.53430303])}
+05/23 13:59  Best valid Recall@5 at epoch 5
+
+05/23 13:59  Batch 0 / 27, Total_loss: 4.49693 = Recloss: 4.30843 + Divloss: 0.94253
+05/23 14:00  Batch 13 / 27, Total_loss: 4.62109 = Recloss: 4.45054 + Divloss: 0.85274
+05/23 14:00  Batch 26 / 27, Total_loss: 4.52731 = Recloss: 4.36115 + Divloss: 0.83078
+05/23 14:01  Avg Epoch 6 / 100, Total_Loss: 4.86369 = Recloss: 4.67328 + Divloss: 0.95204
+05/23 14:01  Valid NDCG@5: 0.53999, Recall@5: 0.56470
+05/23 14:01  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.4665480440263154,
+ 'NDCG': array([0.44387879, 0.4558091 , 0.46968232, 0.47648371, 0.48350028]),
+ 'Recall': array([0.44387879, 0.46278788, 0.49381818, 0.51442424, 0.54206061])}
+05/23 14:01  Best valid Recall@5 at epoch 6
+
+05/23 14:01  Batch 0 / 27, Total_loss: 4.37200 = Recloss: 4.20334 + Divloss: 0.84326
+05/23 14:02  Batch 13 / 27, Total_loss: 4.38464 = Recloss: 4.16317 + Divloss: 1.10731
+05/23 14:02  Batch 26 / 27, Total_loss: 4.33551 = Recloss: 4.17249 + Divloss: 0.81510
+05/23 14:03  Avg Epoch 7 / 100, Total_Loss: 4.75438 = Recloss: 4.56225 + Divloss: 0.96066
+05/23 14:03  Valid NDCG@5: 0.54909, Recall@5: 0.57341
+05/23 14:03  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.4749152761156134,
+ 'NDCG': array([0.45236364, 0.46505871, 0.47720039, 0.48491745, 0.4920531 ]),
+ 'Recall': array([0.45236364, 0.47248485, 0.49963636, 0.52339394, 0.55175758])}
+05/23 14:03  Best valid Recall@5 at epoch 7
+
+05/23 14:03  Batch 0 / 27, Total_loss: 4.30208 = Recloss: 4.13880 + Divloss: 0.81638
+05/23 14:04  Batch 13 / 27, Total_loss: 4.29263 = Recloss: 4.13118 + Divloss: 0.80725
+05/23 14:05  Batch 26 / 27, Total_loss: 4.24352 = Recloss: 4.08585 + Divloss: 0.78837
+05/23 14:05  Avg Epoch 8 / 100, Total_Loss: 4.65128 = Recloss: 4.46856 + Divloss: 0.91358
+05/23 14:05  Valid NDCG@5: 0.55759, Recall@5: 0.57941
+05/23 14:05  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.4813514364756691,
+ 'NDCG': array([0.45721212, 0.47067196, 0.48414871, 0.49287092, 0.49909055]),
+ 'Recall': array([0.45721212, 0.47854545, 0.50836364, 0.53527273, 0.56048485])}
+05/23 14:05  Best valid Recall@5 at epoch 8
+
+05/23 14:05  Batch 0 / 27, Total_loss: 4.15378 = Recloss: 3.99593 + Divloss: 0.78925
+05/23 14:06  Batch 13 / 27, Total_loss: 4.25724 = Recloss: 4.10011 + Divloss: 0.78564
+05/23 14:07  Batch 26 / 27, Total_loss: 4.22378 = Recloss: 4.05617 + Divloss: 0.83802
+05/23 14:07  Avg Epoch 9 / 100, Total_Loss: 4.58058 = Recloss: 4.40363 + Divloss: 0.88476
+05/23 14:07  Valid NDCG@5: 0.56212, Recall@5: 0.58376
+05/23 14:07  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.4859429398821455,
+ 'NDCG': array([0.46254545, 0.47478167, 0.48870087, 0.49717304, 0.5038152 ]),
+ 'Recall': array([0.46254545, 0.48193939, 0.5129697 , 0.53939394, 0.56581818])}
+05/23 14:07  Best valid Recall@5 at epoch 9
+
+05/23 14:07  Batch 0 / 27, Total_loss: 4.07396 = Recloss: 3.90822 + Divloss: 0.82870
+05/23 14:08  Batch 13 / 27, Total_loss: 4.11251 = Recloss: 3.95673 + Divloss: 0.77888
+05/23 14:09  Batch 26 / 27, Total_loss: 4.15323 = Recloss: 4.00319 + Divloss: 0.75019
+05/23 14:09  Avg Epoch 10 / 100, Total_Loss: 4.52184 = Recloss: 4.34645 + Divloss: 0.87694
+05/23 14:09  Valid NDCG@5: 0.56909, Recall@5: 0.59112
+05/23 14:09  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.4928513804049402,
+ 'NDCG': array([0.47151515, 0.48161003, 0.49601939, 0.50346225, 0.50930955]),
+ 'Recall': array([0.47151515, 0.48751515, 0.51975758, 0.54278788, 0.56630303])}
+05/23 14:09  Best valid Recall@5 at epoch 10
+
+05/23 14:09  Batch 0 / 27, Total_loss: 4.21614 = Recloss: 4.00234 + Divloss: 1.06898
+05/23 14:10  Batch 13 / 27, Total_loss: 4.13607 = Recloss: 3.98269 + Divloss: 0.76687
+05/23 14:11  Batch 26 / 27, Total_loss: 4.19421 = Recloss: 4.04464 + Divloss: 0.74782
+05/23 14:11  Avg Epoch 11 / 100, Total_Loss: 4.46595 = Recloss: 4.29500 + Divloss: 0.85476
+05/23 14:11  Valid NDCG@5: 0.56988, Recall@5: 0.59139
+05/23 14:11  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.49409009876718857,
+ 'NDCG': array([0.4710303 , 0.48387833, 0.49848134, 0.50450357, 0.51052366]),
+ 'Recall': array([0.4710303 , 0.49139394, 0.52436364, 0.54278788, 0.5670303 ])}
+05/23 14:11  Best valid Recall@5 at epoch 11
+
+05/23 14:11  Batch 0 / 27, Total_loss: 4.05348 = Recloss: 3.86502 + Divloss: 0.94231
+05/23 14:12  Batch 13 / 27, Total_loss: 4.07837 = Recloss: 3.92425 + Divloss: 0.77059
+05/23 14:13  Batch 26 / 27, Total_loss: 3.97448 = Recloss: 3.82933 + Divloss: 0.72579
+05/23 14:13  Avg Epoch 12 / 100, Total_Loss: 4.42575 = Recloss: 4.25769 + Divloss: 0.84031
+05/23 14:13  Valid NDCG@5: 0.57279, Recall@5: 0.59466
+05/23 14:13  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.4976879080005167,
+ 'NDCG': array([0.47587879, 0.488115  , 0.5009574 , 0.50730709, 0.51386445]),
+ 'Recall': array([0.47587879, 0.49527273, 0.52412121, 0.544     , 0.56993939])}
+05/23 14:13  Best valid Recall@5 at epoch 12
+
+05/23 14:14  Batch 0 / 27, Total_loss: 4.00526 = Recloss: 3.83589 + Divloss: 0.84682
+05/23 14:14  Batch 13 / 27, Total_loss: 4.07125 = Recloss: 3.86141 + Divloss: 1.04919
+05/23 14:15  Batch 26 / 27, Total_loss: 4.25988 = Recloss: 4.11701 + Divloss: 0.71432
+05/23 14:15  Avg Epoch 13 / 100, Total_Loss: 4.39162 = Recloss: 4.22291 + Divloss: 0.84354
+05/23 14:15  Valid NDCG@5: 0.57812, Recall@5: 0.59521
+05/23 14:16  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5006093077138948,
+ 'NDCG': array([0.47878788, 0.49087114, 0.50360913, 0.51048055, 0.51585821]),
+ 'Recall': array([0.47878788, 0.49793939, 0.52557576, 0.54690909, 0.568     ])}
+05/23 14:16  Best valid Recall@5 at epoch 13
+
+05/23 14:16  Batch 0 / 27, Total_loss: 3.99326 = Recloss: 3.85142 + Divloss: 0.70918
+05/23 14:16  Batch 13 / 27, Total_loss: 4.11329 = Recloss: 3.97117 + Divloss: 0.71057
+05/23 14:17  Batch 26 / 27, Total_loss: 4.06980 = Recloss: 3.92838 + Divloss: 0.70710
+05/23 14:17  Avg Epoch 14 / 100, Total_Loss: 4.35188 = Recloss: 4.19157 + Divloss: 0.80156
+05/23 14:17  Valid NDCG@5: 0.57826, Recall@5: 0.59602
+05/23 14:18  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5003561952646389,
+ 'NDCG': array([0.47830303, 0.49038629, 0.50285443, 0.51025426, 0.51690706]),
+ 'Recall': array([0.47830303, 0.49745455, 0.52509091, 0.54812121, 0.57430303])}
+05/23 14:18  Best valid Recall@5 at epoch 14
+
+05/23 14:18  Batch 0 / 27, Total_loss: 4.01604 = Recloss: 3.87104 + Divloss: 0.72502
+05/23 14:18  Batch 13 / 27, Total_loss: 3.92596 = Recloss: 3.78747 + Divloss: 0.69246
+05/23 14:19  Batch 26 / 27, Total_loss: 4.10596 = Recloss: 3.96868 + Divloss: 0.68640
+05/23 14:19  Avg Epoch 15 / 100, Total_Loss: 4.32168 = Recloss: 4.16639 + Divloss: 0.77642
+05/23 14:19  Valid NDCG@5: 0.58172, Recall@5: 0.59902
+05/23 14:20  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5024008215716063,
+ 'NDCG': array([0.4809697 , 0.4925941 , 0.50438712, 0.51256037, 0.51882087]),
+ 'Recall': array([0.4809697 , 0.49939394, 0.52557576, 0.5510303 , 0.576     ])}
+05/23 14:20  Best valid Recall@5 at epoch 15
+
+05/23 14:20  Batch 0 / 27, Total_loss: 3.99575 = Recloss: 3.85514 + Divloss: 0.70307
+05/23 14:20  Batch 13 / 27, Total_loss: 3.93869 = Recloss: 3.76715 + Divloss: 0.85773
+05/23 14:21  Batch 26 / 27, Total_loss: 4.04206 = Recloss: 3.90592 + Divloss: 0.68074
+05/23 14:22  Avg Epoch 16 / 100, Total_Loss: 4.29686 = Recloss: 4.14124 + Divloss: 0.77808
+05/23 14:22  Valid NDCG@5: 0.58177, Recall@5: 0.60038
+05/23 14:22  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5047480128038243,
+ 'NDCG': array([0.48290909, 0.49713369, 0.50654853, 0.51424907, 0.52031075]),
+ 'Recall': array([0.48290909, 0.50545455, 0.52654545, 0.55030303, 0.57406061])}
+05/23 14:22  Best valid Recall@5 at epoch 16
+
+05/23 14:22  Batch 0 / 27, Total_loss: 3.78525 = Recloss: 3.64674 + Divloss: 0.69255
+05/23 14:23  Batch 13 / 27, Total_loss: 3.97098 = Recloss: 3.83677 + Divloss: 0.67107
+05/23 14:23  Batch 26 / 27, Total_loss: 3.92630 = Recloss: 3.79222 + Divloss: 0.67038
+05/23 14:24  Avg Epoch 17 / 100, Total_Loss: 4.27558 = Recloss: 4.11983 + Divloss: 0.77877
+05/23 14:24  Valid NDCG@5: 0.58319, Recall@5: 0.60202
+05/23 14:24  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5043696931436864,
+ 'NDCG': array([0.48218182, 0.4954887 , 0.50664562, 0.51411218, 0.52083537]),
+ 'Recall': array([0.48218182, 0.50327273, 0.528     , 0.55151515, 0.57818182])}
+05/23 14:24  Best valid Recall@5 at epoch 17
+
+05/23 14:24  Batch 0 / 27, Total_loss: 3.97774 = Recloss: 3.81647 + Divloss: 0.80635
+05/23 14:25  Batch 13 / 27, Total_loss: 3.98281 = Recloss: 3.82724 + Divloss: 0.77782
+05/23 14:25  Batch 26 / 27, Total_loss: 4.05711 = Recloss: 3.89825 + Divloss: 0.79426
+05/23 14:26  Avg Epoch 18 / 100, Total_Loss: 4.24913 = Recloss: 4.09366 + Divloss: 0.77735
+05/23 14:26  Valid NDCG@5: 0.58320, Recall@5: 0.60174
+05/23 14:26  Best valid Recall@5 at epoch 17
+
+05/23 14:26  Batch 0 / 27, Total_loss: 3.81071 = Recloss: 3.65176 + Divloss: 0.79473
+05/23 14:26  Batch 13 / 27, Total_loss: 3.99745 = Recloss: 3.86674 + Divloss: 0.65355
+05/23 14:27  Batch 26 / 27, Total_loss: 4.02678 = Recloss: 3.87151 + Divloss: 0.77638
+05/23 14:28  Avg Epoch 19 / 100, Total_Loss: 4.23930 = Recloss: 4.08781 + Divloss: 0.75743
+05/23 14:28  Valid NDCG@5: 0.58541, Recall@5: 0.60501
+05/23 14:28  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5071027208252648,
+ 'NDCG': array([0.48581818, 0.49774849, 0.50952741, 0.51675623, 0.52282721]),
+ 'Recall': array([0.48581818, 0.50472727, 0.53042424, 0.55321212, 0.57745455])}
+05/23 14:28  Best valid Recall@5 at epoch 19
+
+05/23 14:28  Batch 0 / 27, Total_loss: 3.88650 = Recloss: 3.75610 + Divloss: 0.65199
+05/23 14:29  Batch 13 / 27, Total_loss: 3.82216 = Recloss: 3.69458 + Divloss: 0.63788
+05/23 14:29  Batch 26 / 27, Total_loss: 3.90001 = Recloss: 3.77143 + Divloss: 0.64286
+05/23 14:30  Avg Epoch 20 / 100, Total_Loss: 4.20813 = Recloss: 4.06295 + Divloss: 0.72589
+05/23 14:30  Valid NDCG@5: 0.58551, Recall@5: 0.60583
+05/23 14:30  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5083808430251708,
+ 'NDCG': array([0.48654545, 0.49985234, 0.51103234, 0.51765578, 0.52419054]),
+ 'Recall': array([0.48654545, 0.50763636, 0.53260606, 0.55321212, 0.57890909])}
+05/23 14:30  Best valid Recall@5 at epoch 20
+
+05/23 14:30  Batch 0 / 27, Total_loss: 3.85239 = Recloss: 3.71956 + Divloss: 0.66416
+05/23 14:31  Batch 13 / 27, Total_loss: 3.95226 = Recloss: 3.76688 + Divloss: 0.92690
+05/23 14:31  Batch 26 / 27, Total_loss: 4.02889 = Recloss: 3.83890 + Divloss: 0.94991
+05/23 14:32  Avg Epoch 21 / 100, Total_Loss: 4.19616 = Recloss: 4.04171 + Divloss: 0.77228
+05/23 14:32  Valid NDCG@5: 0.58768, Recall@5: 0.60774
+05/23 14:32  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5102639598551779,
+ 'NDCG': array([0.48921212, 0.5022131 , 0.51303468, 0.5191868 , 0.52555149]),
+ 'Recall': array([0.48921212, 0.50981818, 0.53406061, 0.55345455, 0.57866667])}
+05/23 14:32  Best valid Recall@5 at epoch 21
+
+05/23 14:32  Batch 0 / 27, Total_loss: 3.81280 = Recloss: 3.58971 + Divloss: 1.11546
+05/23 14:33  Batch 13 / 27, Total_loss: 3.90133 = Recloss: 3.76756 + Divloss: 0.66887
+05/23 14:33  Batch 26 / 27, Total_loss: 3.93641 = Recloss: 3.81108 + Divloss: 0.62666
+05/23 14:34  Avg Epoch 22 / 100, Total_Loss: 4.18061 = Recloss: 4.03167 + Divloss: 0.74469
+05/23 14:34  Valid NDCG@5: 0.58849, Recall@5: 0.60828
+05/23 14:34  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5107356936014124,
+ 'NDCG': array([0.49018182, 0.50257098, 0.51284137, 0.51924487, 0.52604198]),
+ 'Recall': array([0.49018182, 0.50981818, 0.53284848, 0.55248485, 0.57939394])}
+05/23 14:34  Best valid Recall@5 at epoch 22
+
+05/23 14:34  Batch 0 / 27, Total_loss: 3.75015 = Recloss: 3.62418 + Divloss: 0.62986
+05/23 14:35  Batch 13 / 27, Total_loss: 3.84066 = Recloss: 3.71551 + Divloss: 0.62575
+05/23 14:36  Batch 26 / 27, Total_loss: 3.88787 = Recloss: 3.74463 + Divloss: 0.71623
+05/23 14:36  Avg Epoch 23 / 100, Total_Loss: 4.15599 = Recloss: 4.01618 + Divloss: 0.69905
+05/23 14:36  Valid NDCG@5: 0.58820, Recall@5: 0.60855
+05/23 14:36  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5100475671465531,
+ 'NDCG': array([0.48848485, 0.50148583, 0.51207561, 0.51938947, 0.52581506]),
+ 'Recall': array([0.48848485, 0.50909091, 0.53236364, 0.55515152, 0.58060606])}
+05/23 14:36  Best valid Recall@5 at epoch 23
+
+05/23 14:36  Batch 0 / 27, Total_loss: 3.74201 = Recloss: 3.61614 + Divloss: 0.62934
+05/23 14:37  Batch 13 / 27, Total_loss: 3.84556 = Recloss: 3.72292 + Divloss: 0.61321
+05/23 14:38  Batch 26 / 27, Total_loss: 3.92261 = Recloss: 3.78242 + Divloss: 0.70095
+05/23 14:38  Avg Epoch 24 / 100, Total_Loss: 4.14756 = Recloss: 4.00010 + Divloss: 0.73730
+05/23 14:38  Valid NDCG@5: 0.59005, Recall@5: 0.60883
+05/23 14:38  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5140761820264772,
+ 'NDCG': array([0.4950303 , 0.50573699, 0.51497837, 0.52256729, 0.52916495]),
+ 'Recall': array([0.4950303 , 0.512     , 0.53260606, 0.55612121, 0.58206061])}
+05/23 14:38  Best valid Recall@5 at epoch 24
+
+05/23 14:38  Batch 0 / 27, Total_loss: 3.74133 = Recloss: 3.61860 + Divloss: 0.61365
+05/23 14:39  Batch 13 / 27, Total_loss: 3.80542 = Recloss: 3.68294 + Divloss: 0.61241
+05/23 14:40  Batch 26 / 27, Total_loss: 3.87608 = Recloss: 3.75527 + Divloss: 0.60401
+05/23 14:40  Avg Epoch 25 / 100, Total_Loss: 4.14029 = Recloss: 3.99303 + Divloss: 0.73628
+05/23 14:40  Valid NDCG@5: 0.59052, Recall@5: 0.60828
+05/23 14:40  Best valid Recall@5 at epoch 24
+
+05/23 14:40  Batch 0 / 27, Total_loss: 3.81990 = Recloss: 3.64536 + Divloss: 0.87271
+05/23 14:41  Batch 13 / 27, Total_loss: 3.86772 = Recloss: 3.74546 + Divloss: 0.61126
+05/23 14:42  Batch 26 / 27, Total_loss: 3.92755 = Recloss: 3.77237 + Divloss: 0.77588
+05/23 14:42  Avg Epoch 26 / 100, Total_Loss: 4.12021 = Recloss: 3.97545 + Divloss: 0.72380
+05/23 14:42  Valid NDCG@5: 0.58970, Recall@5: 0.60910
+05/23 14:42  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5139334712696375,
+ 'NDCG': array([0.49454545, 0.50494624, 0.51648717, 0.52259641, 0.52874306]),
+ 'Recall': array([0.49454545, 0.5110303 , 0.53672727, 0.55587879, 0.58036364])}
+05/23 14:42  Best valid Recall@5 at epoch 26
+
+05/23 14:42  Batch 0 / 27, Total_loss: 3.78297 = Recloss: 3.66164 + Divloss: 0.60667
+05/23 14:43  Batch 13 / 27, Total_loss: 3.75201 = Recloss: 3.62893 + Divloss: 0.61540
+05/23 14:44  Batch 26 / 27, Total_loss: 3.91118 = Recloss: 3.75053 + Divloss: 0.80323
+05/23 14:44  Avg Epoch 27 / 100, Total_Loss: 4.10879 = Recloss: 3.96306 + Divloss: 0.72868
+05/23 14:44  Valid NDCG@5: 0.59107, Recall@5: 0.60937
+05/23 14:44  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5144785825967921,
+ 'NDCG': array([0.49478788, 0.50625933, 0.51652623, 0.52303638, 0.52927152]),
+ 'Recall': array([0.49478788, 0.5129697 , 0.536     , 0.55636364, 0.58060606])}
+05/23 14:44  Best valid Recall@5 at epoch 27
+
+05/23 14:44  Batch 0 / 27, Total_loss: 3.55201 = Recloss: 3.43444 + Divloss: 0.58786
+05/23 14:45  Batch 13 / 27, Total_loss: 3.71637 = Recloss: 3.59701 + Divloss: 0.59683
+05/23 14:46  Batch 26 / 27, Total_loss: 3.82934 = Recloss: 3.71045 + Divloss: 0.59446
+05/23 14:46  Avg Epoch 28 / 100, Total_Loss: 4.10008 = Recloss: 3.95909 + Divloss: 0.70494
+05/23 14:46  Valid NDCG@5: 0.59151, Recall@5: 0.60964
+05/23 14:46  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5143015370688033,
+ 'NDCG': array([0.49454545, 0.50494624, 0.51634384, 0.52346397, 0.52896925]),
+ 'Recall': array([0.49454545, 0.5110303 , 0.53575758, 0.55806061, 0.57963636])}
+05/23 14:46  Best valid Recall@5 at epoch 28
+
+05/23 14:46  Batch 0 / 27, Total_loss: 3.74615 = Recloss: 3.61316 + Divloss: 0.66498
+05/23 14:47  Batch 13 / 27, Total_loss: 3.66646 = Recloss: 3.54624 + Divloss: 0.60107
+05/23 14:48  Batch 26 / 27, Total_loss: 3.86802 = Recloss: 3.74959 + Divloss: 0.59216
+05/23 14:48  Avg Epoch 29 / 100, Total_Loss: 4.08331 = Recloss: 3.94488 + Divloss: 0.69215
+05/23 14:48  Valid NDCG@5: 0.59307, Recall@5: 0.61291
+05/23 14:48  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5144028524779153,
+ 'NDCG': array([0.49406061, 0.50553206, 0.51657308, 0.52383765, 0.52961831]),
+ 'Recall': array([0.49406061, 0.51224242, 0.5369697 , 0.55951515, 0.58230303])}
+05/23 14:48  Best valid Recall@5 at epoch 29
+
+05/23 14:48  Batch 0 / 27, Total_loss: 3.51452 = Recloss: 3.39700 + Divloss: 0.58762
+05/23 14:49  Batch 13 / 27, Total_loss: 3.75036 = Recloss: 3.63412 + Divloss: 0.58124
+05/23 14:50  Batch 26 / 27, Total_loss: 3.86293 = Recloss: 3.70071 + Divloss: 0.81109
+05/23 14:50  Avg Epoch 30 / 100, Total_Loss: 4.08565 = Recloss: 3.94076 + Divloss: 0.72443
+05/23 14:50  Valid NDCG@5: 0.59162, Recall@5: 0.61101
+05/23 14:50  Best valid Recall@5 at epoch 29
+
+05/23 14:50  Batch 0 / 27, Total_loss: 3.58485 = Recloss: 3.46775 + Divloss: 0.58550
+05/23 14:51  Batch 13 / 27, Total_loss: 3.84522 = Recloss: 3.72986 + Divloss: 0.57679
+05/23 14:52  Batch 26 / 27, Total_loss: 3.80924 = Recloss: 3.68870 + Divloss: 0.60271
+05/23 14:52  Avg Epoch 31 / 100, Total_Loss: 4.06530 = Recloss: 3.93154 + Divloss: 0.66881
+05/23 14:52  Valid NDCG@5: 0.59215, Recall@5: 0.61209
+05/23 14:52  Best valid Recall@5 at epoch 29
+
+05/23 14:52  Batch 0 / 27, Total_loss: 3.64917 = Recloss: 3.53626 + Divloss: 0.56455
+05/23 14:53  Batch 13 / 27, Total_loss: 3.65235 = Recloss: 3.53702 + Divloss: 0.57661
+05/23 14:53  Batch 26 / 27, Total_loss: 3.85125 = Recloss: 3.73700 + Divloss: 0.57124
+05/23 14:54  Avg Epoch 32 / 100, Total_Loss: 4.05021 = Recloss: 3.92044 + Divloss: 0.64885
+05/23 14:54  Valid NDCG@5: 0.59397, Recall@5: 0.61400
+05/23 14:54  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5146151697360811,
+ 'NDCG': array([0.49381818, 0.50559554, 0.5163357 , 0.5241033 , 0.53053147]),
+ 'Recall': array([0.49381818, 0.51248485, 0.53648485, 0.56072727, 0.58593939])}
+05/23 14:54  Best valid Recall@5 at epoch 32
+
+05/23 14:54  Batch 0 / 27, Total_loss: 3.69194 = Recloss: 3.57854 + Divloss: 0.56701
+05/23 14:55  Batch 13 / 27, Total_loss: 3.77969 = Recloss: 3.66613 + Divloss: 0.56776
+05/23 14:55  Batch 26 / 27, Total_loss: 3.85412 = Recloss: 3.64858 + Divloss: 1.02767
+05/23 14:56  Avg Epoch 33 / 100, Total_Loss: 4.05454 = Recloss: 3.91683 + Divloss: 0.68855
+05/23 14:56  Valid NDCG@5: 0.59647, Recall@5: 0.61591
+05/23 14:56  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5171859018768387,
+ 'NDCG': array([0.49745455, 0.508926  , 0.51729678, 0.52678423, 0.53266477]),
+ 'Recall': array([0.49745455, 0.51563636, 0.53430303, 0.56363636, 0.58666667])}
+05/23 14:56  Best valid Recall@5 at epoch 33
+
+05/23 14:56  Batch 0 / 27, Total_loss: 3.64707 = Recloss: 3.53428 + Divloss: 0.56394
+05/23 14:57  Batch 13 / 27, Total_loss: 3.68615 = Recloss: 3.57277 + Divloss: 0.56688
+05/23 14:58  Batch 26 / 27, Total_loss: 3.80595 = Recloss: 3.69540 + Divloss: 0.55272
+05/23 14:58  Avg Epoch 34 / 100, Total_Loss: 4.04015 = Recloss: 3.90905 + Divloss: 0.65549
+05/23 14:58  Valid NDCG@5: 0.59611, Recall@5: 0.61645
+05/23 14:58  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5131250304635891,
+ 'NDCG': array([0.49212121, 0.50389857, 0.51477945, 0.52312719, 0.52900501]),
+ 'Recall': array([0.49212121, 0.51078788, 0.5350303 , 0.5609697 , 0.584     ])}
+05/23 14:58  Best valid Recall@5 at epoch 34
+
+05/23 14:58  Batch 0 / 27, Total_loss: 3.60416 = Recloss: 3.47952 + Divloss: 0.62325
+05/23 14:59  Batch 13 / 27, Total_loss: 3.73078 = Recloss: 3.61736 + Divloss: 0.56708
+05/23 15:00  Batch 26 / 27, Total_loss: 3.76061 = Recloss: 3.65145 + Divloss: 0.54584
+05/23 15:00  Avg Epoch 35 / 100, Total_Loss: 4.02749 = Recloss: 3.89114 + Divloss: 0.68173
+05/23 15:00  Valid NDCG@5: 0.59508, Recall@5: 0.61591
+05/23 15:00  Best valid Recall@5 at epoch 34
+
+05/23 15:00  Batch 0 / 27, Total_loss: 3.66334 = Recloss: 3.55364 + Divloss: 0.54853
+05/23 15:01  Batch 13 / 27, Total_loss: 3.79975 = Recloss: 3.59100 + Divloss: 1.04376
+05/23 15:01  Batch 26 / 27, Total_loss: 3.71683 = Recloss: 3.60844 + Divloss: 0.54197
+05/23 15:02  Avg Epoch 36 / 100, Total_Loss: 4.03175 = Recloss: 3.88884 + Divloss: 0.71450
+05/23 15:02  Valid NDCG@5: 0.59696, Recall@5: 0.61618
+05/23 15:02  Best valid Recall@5 at epoch 34
+
+05/23 15:02  Batch 0 / 27, Total_loss: 3.67689 = Recloss: 3.49520 + Divloss: 0.90843
+05/23 15:02  Batch 13 / 27, Total_loss: 3.76119 = Recloss: 3.64542 + Divloss: 0.57886
+05/23 15:03  Batch 26 / 27, Total_loss: 3.73443 = Recloss: 3.62701 + Divloss: 0.53711
+05/23 15:03  Avg Epoch 37 / 100, Total_Loss: 4.01297 = Recloss: 3.88140 + Divloss: 0.65789
+05/23 15:03  Valid NDCG@5: 0.59828, Recall@5: 0.61863
+05/23 15:04  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.5176059553022678,
+ 'NDCG': array([0.49866667, 0.50814973, 0.51959244, 0.5264484 , 0.53260845]),
+ 'Recall': array([0.49866667, 0.51369697, 0.53915152, 0.56072727, 0.5849697 ])}
+05/23 15:04  Best valid Recall@5 at epoch 37
+
+05/23 15:04  Batch 0 / 27, Total_loss: 3.63165 = Recloss: 3.52418 + Divloss: 0.53735
+05/23 15:05  Batch 13 / 27, Total_loss: 3.68615 = Recloss: 3.57928 + Divloss: 0.53431
+05/23 15:05  Batch 26 / 27, Total_loss: 3.82470 = Recloss: 3.69308 + Divloss: 0.65814
+05/23 15:06  Avg Epoch 38 / 100, Total_Loss: 4.00953 = Recloss: 3.87544 + Divloss: 0.67043
+05/23 15:06  Valid NDCG@5: 0.59650, Recall@5: 0.61564
+05/23 15:06  Best valid Recall@5 at epoch 37
+
+05/23 15:06  Batch 0 / 27, Total_loss: 3.66474 = Recloss: 3.55619 + Divloss: 0.54276
+05/23 15:06  Batch 13 / 27, Total_loss: 3.78277 = Recloss: 3.67640 + Divloss: 0.53188
+05/23 15:07  Batch 26 / 27, Total_loss: 3.72662 = Recloss: 3.61918 + Divloss: 0.53721
+05/23 15:07  Avg Epoch 39 / 100, Total_Loss: 3.98999 = Recloss: 3.86879 + Divloss: 0.60601
+05/23 15:07  Valid NDCG@5: 0.59830, Recall@5: 0.61863
+05/23 15:07  Best valid Recall@5 at epoch 37
+
+05/23 15:07  Batch 0 / 27, Total_loss: 3.56356 = Recloss: 3.45874 + Divloss: 0.52412
+05/23 15:08  Batch 13 / 27, Total_loss: 3.70352 = Recloss: 3.58037 + Divloss: 0.61575
+05/23 15:09  Batch 26 / 27, Total_loss: 3.73901 = Recloss: 3.63439 + Divloss: 0.52311
+05/23 15:09  Avg Epoch 40 / 100, Total_Loss: 3.97967 = Recloss: 3.85581 + Divloss: 0.61931
+05/23 15:09  Valid NDCG@5: 0.59714, Recall@5: 0.61673
+05/23 15:09  Best valid Recall@5 at epoch 37
+
+05/23 15:09  Batch 0 / 27, Total_loss: 3.73821 = Recloss: 3.57883 + Divloss: 0.79689
+05/23 15:10  Batch 13 / 27, Total_loss: 3.73688 = Recloss: 3.63196 + Divloss: 0.52462
+05/23 15:11  Batch 26 / 27, Total_loss: 3.79964 = Recloss: 3.67597 + Divloss: 0.61838
+05/23 15:11  Avg Epoch 41 / 100, Total_Loss: 3.98364 = Recloss: 3.85950 + Divloss: 0.62071
+05/23 15:11  Valid NDCG@5: 0.59752, Recall@5: 0.61809
+05/23 15:11  Best valid Recall@5 at epoch 37
+
+05/23 15:11  Batch 0 / 27, Total_loss: 3.61792 = Recloss: 3.51391 + Divloss: 0.52004
+05/23 15:12  Batch 13 / 27, Total_loss: 3.66911 = Recloss: 3.56334 + Divloss: 0.52886
+05/23 15:13  Batch 26 / 27, Total_loss: 3.87314 = Recloss: 3.76750 + Divloss: 0.52824
+05/23 15:13  Avg Epoch 42 / 100, Total_Loss: 3.97203 = Recloss: 3.84895 + Divloss: 0.61544
+05/23 15:13  Valid NDCG@5: 0.59738, Recall@5: 0.61564
+05/23 15:13  Best valid Recall@5 at epoch 37
+
+05/23 15:13  Batch 0 / 27, Total_loss: 3.52281 = Recloss: 3.41998 + Divloss: 0.51417
+05/23 15:14  Batch 13 / 27, Total_loss: 3.66639 = Recloss: 3.56416 + Divloss: 0.51116
+05/23 15:14  Batch 26 / 27, Total_loss: 3.78784 = Recloss: 3.66432 + Divloss: 0.61755
+05/23 15:15  Avg Epoch 43 / 100, Total_Loss: 3.96504 = Recloss: 3.84480 + Divloss: 0.60122
+05/23 15:15  Valid NDCG@5: 0.59964, Recall@5: 0.61972
+05/23 15:15  New test top@k result at k = (1, 2, 5, 10, 20):
+ {'MRR': 0.51719722593342,
+ 'NDCG': array([0.4969697 , 0.50951182, 0.51888156, 0.52633519, 0.53227028]),
+ 'Recall': array([0.4969697 , 0.51684848, 0.53769697, 0.5609697 , 0.5849697 ])}
+05/23 15:15  Best valid Recall@5 at epoch 43
+
+05/23 15:15  Batch 0 / 27, Total_loss: 3.58417 = Recloss: 3.48096 + Divloss: 0.51604
+05/23 15:16  Batch 13 / 27, Total_loss: 3.61574 = Recloss: 3.51383 + Divloss: 0.50954
+05/23 15:16  Batch 26 / 27, Total_loss: 3.72871 = Recloss: 3.62679 + Divloss: 0.50959
+05/23 15:17  Avg Epoch 44 / 100, Total_Loss: 3.95857 = Recloss: 3.83599 + Divloss: 0.61292
+05/23 15:17  Valid NDCG@5: 0.59834, Recall@5: 0.61509
+05/23 15:17  Best valid Recall@5 at epoch 43
+
+05/23 15:17  Batch 0 / 27, Total_loss: 3.51106 = Recloss: 3.40326 + Divloss: 0.53900
+05/23 15:17  Batch 13 / 27, Total_loss: 3.55036 = Recloss: 3.45073 + Divloss: 0.49819
+05/23 15:18  Batch 26 / 27, Total_loss: 3.79689 = Recloss: 3.69761 + Divloss: 0.49637
+05/23 15:18  Avg Epoch 45 / 100, Total_Loss: 3.95126 = Recloss: 3.83207 + Divloss: 0.59596
+05/23 15:18  Valid NDCG@5: 0.59971, Recall@5: 0.61673
+05/23 15:18  Best valid Recall@5 at epoch 43
+
+05/23 15:18  Batch 0 / 27, Total_loss: 3.53874 = Recloss: 3.43775 + Divloss: 0.50496
+05/23 15:19  Batch 13 / 27, Total_loss: 3.62171 = Recloss: 3.51455 + Divloss: 0.53582
+05/23 15:20  Batch 26 / 27, Total_loss: 3.74042 = Recloss: 3.64270 + Divloss: 0.48855
+05/23 15:20  Avg Epoch 46 / 100, Total_Loss: 3.93995 = Recloss: 3.82302 + Divloss: 0.58469
+05/23 15:20  Valid NDCG@5: 0.59767, Recall@5: 0.61645
+05/23 15:20  Best valid Recall@5 at epoch 43
+
+05/23 15:20  Batch 0 / 27, Total_loss: 3.53914 = Recloss: 3.43989 + Divloss: 0.49622
+05/23 15:21  Batch 13 / 27, Total_loss: 3.67264 = Recloss: 3.57212 + Divloss: 0.50262
+05/23 15:22  Batch 26 / 27, Total_loss: 3.70465 = Recloss: 3.59450 + Divloss: 0.55077
+05/23 15:22  Avg Epoch 47 / 100, Total_Loss: 3.92551 = Recloss: 3.81602 + Divloss: 0.54746
+05/23 15:22  Valid NDCG@5: 0.59864, Recall@5: 0.61564
+05/23 15:22  Best valid Recall@5 at epoch 43
+
+05/23 15:22  Batch 0 / 27, Total_loss: 3.56740 = Recloss: 3.46913 + Divloss: 0.49137
+05/23 15:23  Batch 13 / 27, Total_loss: 3.61849 = Recloss: 3.51917 + Divloss: 0.49661
+05/23 15:24  Batch 26 / 27, Total_loss: 3.70356 = Recloss: 3.60175 + Divloss: 0.50905
+05/23 15:24  Avg Epoch 48 / 100, Total_Loss: 3.93526 = Recloss: 3.81721 + Divloss: 0.59023
+05/23 15:24  Valid NDCG@5: 0.59930, Recall@5: 0.61700
+05/23 15:24  Best valid Recall@5 at epoch 43
+
+05/23 15:24  Batch 0 / 27, Total_loss: 3.69223 = Recloss: 3.59025 + Divloss: 0.50987
+05/23 15:25  Batch 13 / 27, Total_loss: 3.70972 = Recloss: 3.56106 + Divloss: 0.74326
+05/23 15:25  Batch 26 / 27, Total_loss: 3.70533 = Recloss: 3.60998 + Divloss: 0.47671
+05/23 15:26  Avg Epoch 49 / 100, Total_Loss: 3.91969 = Recloss: 3.81150 + Divloss: 0.54092
+05/23 15:26  Valid NDCG@5: 0.60008, Recall@5: 0.61727
+05/23 15:26  Best valid Recall@5 at epoch 43
+
+05/23 15:26  Batch 0 / 27, Total_loss: 3.62385 = Recloss: 3.52808 + Divloss: 0.47886
+05/23 15:26  Batch 13 / 27, Total_loss: 3.62816 = Recloss: 3.53265 + Divloss: 0.47754
+05/23 15:27  Batch 26 / 27, Total_loss: 3.66993 = Recloss: 3.57559 + Divloss: 0.47168
+05/23 15:27  Avg Epoch 50 / 100, Total_Loss: 3.91459 = Recloss: 3.80441 + Divloss: 0.55090
+05/23 15:27  Valid NDCG@5: 0.59975, Recall@5: 0.61591
+05/23 15:27  Best valid Recall@5 at epoch 43
+
+05/23 15:28  Batch 0 / 27, Total_loss: 3.61669 = Recloss: 3.52245 + Divloss: 0.47120
+05/23 15:28  Batch 13 / 27, Total_loss: 3.71246 = Recloss: 3.61781 + Divloss: 0.47324
+05/23 15:29  Batch 26 / 27, Total_loss: 3.68611 = Recloss: 3.59274 + Divloss: 0.46684
+05/23 15:29  Avg Epoch 51 / 100, Total_Loss: 3.91508 = Recloss: 3.80503 + Divloss: 0.55025
+05/23 15:29  Valid NDCG@5: 0.60088, Recall@5: 0.61809
+05/23 15:29  Best valid Recall@5 at epoch 43
+
+05/23 15:29  Batch 0 / 27, Total_loss: 3.52262 = Recloss: 3.42902 + Divloss: 0.46802
+05/23 15:30  Batch 13 / 27, Total_loss: 3.67899 = Recloss: 3.58503 + Divloss: 0.46980
+05/23 15:31  Batch 26 / 27, Total_loss: 3.71501 = Recloss: 3.60595 + Divloss: 0.54532
+05/23 15:31  Avg Epoch 52 / 100, Total_Loss: 3.90655 = Recloss: 3.80128 + Divloss: 0.52632
+05/23 15:31  Valid NDCG@5: 0.60021, Recall@5: 0.61618
+05/23 15:31  Best valid Recall@5 at epoch 43
+
+05/23 15:31  Batch 0 / 27, Total_loss: 3.49768 = Recloss: 3.40545 + Divloss: 0.46116
+05/23 15:32  Batch 13 / 27, Total_loss: 3.43026 = Recloss: 3.33830 + Divloss: 0.45980
+05/23 15:33  Batch 26 / 27, Total_loss: 3.72062 = Recloss: 3.62978 + Divloss: 0.45417
+05/23 15:33  Avg Epoch 53 / 100, Total_Loss: 3.89565 = Recloss: 3.78526 + Divloss: 0.55195
+05/23 15:33  Valid NDCG@5: 0.60213, Recall@5: 0.61999
+05/23 15:33  Stop training after 10 epochs without valid improvement.
+05/23 15:33  
+ Training on LA Finished, Best Valid at epoch 43
+05/23 15:33  ***Best Test Top@k Result at k = (1, 2, 5, 10, 20) is***
+{'MRR': 0.51719722593342,
+ 'NDCG': array([0.4969697 , 0.50951182, 0.51888156, 0.52633519, 0.53227028]),
+ 'Recall': array([0.4969697 , 0.51684848, 0.53769697, 0.5609697 , 0.5849697 ])}
