@@ -1,4 +1,4 @@
-# Diff-DGMN (更新中~Updating)
+# Diff-DGMN
 Diff-DGMN: A Diffusion-based Dual Graph Multi-attention Network for POI Recommendation
 
 -  ***Dual-graph-driven Representation***: Direction-aware Sequence Graph Multi-scale Representation Module (SeqGraphRep) and Global-based Distance Graph Geographical Representation Module (DisGraphRep).
