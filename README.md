@@ -60,22 +60,14 @@ J. Zuo and Y. Zhang, "Diff-DGMN: A Diffusion-Based Dual Graph Multi-Attention Ne
 
 @ARTICLE{
   10640103,
-  
   author={Zuo, Jiankai and Zhang, Yaying},
-  
   journal={IEEE Internet of Things Journal}, 
-  
   title={Diff-DGMN: A Diffusion-Based Dual Graph Multi-Attention Network for POI Recommendation}, 
-  
   year={2024},
-  
   volume={},
-  
   number={},
-  
   pages={1-1},
-  
   doi={10.1109/JIOT.2024.3446048}
   }
 
-keywords: {Diffusion models;Long short term memory;Social networking (online);Semantics;Recurrent neural networks;Internet of Things;Encoding;POI recommendation;Diffusion model;Graph neural network;Self-attention;Location-based social networks},
+keywords---Diffusion models; POI recommendation; Graph neural network; Self-attention; Location-based social networks; Long short term memory; Social networking (online); Semantics; Recurrent neural networks; Internet of Things;
