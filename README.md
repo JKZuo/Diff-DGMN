@@ -55,6 +55,9 @@ nohup python main.py --dataset LA --gpu 0 --dp 0.4 > LA.log 2>&1 &
 ```
 ## Cite
 If you feel that this work has been helpful for your research, please cite it as: 
+
+J. Zuo and Y. Zhang, "Diff-DGMN: A Diffusion-Based Dual Graph Multi-Attention Network for POI Recommendation," in IEEE Internet of Things Journal, early access, doi: 10.1109/JIOT.2024.3446048.
+
 @ARTICLE{
   10640103,
   
@@ -73,9 +76,6 @@ If you feel that this work has been helpful for your research, please cite it as
   pages={1-1},
   
   doi={10.1109/JIOT.2024.3446048}
-
   }
-
-J. Zuo and Y. Zhang, "Diff-DGMN: A Diffusion-Based Dual Graph Multi-Attention Network for POI Recommendation," in IEEE Internet of Things Journal, early access, doi: 10.1109/JIOT.2024.3446048.
 
 keywords: {Diffusion models;Long short term memory;Social networking (online);Semantics;Recurrent neural networks;Internet of Things;Encoding;POI recommendation;Diffusion model;Graph neural network;Self-attention;Location-based social networks},
