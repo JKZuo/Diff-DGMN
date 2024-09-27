@@ -16,6 +16,7 @@ The required packages are as follows:
 - torch_geometric == 2.3.1
 - pandas == 2.0.3
 - numpy == 1.23.3
+![Image text](https://github.com/JKZuo/Diff-DGMN/blob/main/f4.pdf).
 
 ## Data
 Due to the large datasets (the data file uploaded by GitHub cannot be larger than 25MB), you can download them through this Baidu Cloud link:
