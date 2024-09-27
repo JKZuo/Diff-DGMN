@@ -10,7 +10,7 @@ The overall framework of our proposed Diff-DGMN model is illustrated in **Fig_1*
 <img align="middle" src="https://github.com/JKZuo/Diff-DGMN/blob/main/Figures/Fig_1.png"/>
 </p>
 <p align = "center">
-<b>Figure 1. The overall framework of the proposed Diffusion-based Dual Graph Multi-attention Network (Diff-DGMN) model. </b> 
+<b>Figure 1. The overall framework of the proposed Diff-DGMN model. </b> 
 </p>
 
 ## Methodology
