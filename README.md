@@ -88,6 +88,35 @@ Then, you can use the small-scale LA dataset as an example to run it as：
 ```shell
 nohup python main.py --dataset LA --gpu 0 --dp 0.4 > LA.log 2>&1 &
 ```
+
+## Result
+For a detailed analysis of the results, please read the paper. Here we mainly present **Study on Noise Schedule Functions**. 
+We will delve into the impact of SDE-based diffusion models on the performance of recommendation systems in POI recommendation tasks.
+We have designed five kinds of β(t) functions as Eq. (25), which are visualized as **Fig_5**.
+<p align="center">
+<img align="middle" src="https://github.com/JKZuo/Diff-DGMN/blob/main/Figures/Fig_5.png" width="900"/>
+</p>
+<p align = "center">
+<b>Figure 5. Diffusion with different noise schedules β(t). </b> 
+</p>
+
+In order to investigate the impact of different noise variations on recommendation performance, we conducted experiments on five cities, and the results are shown in **Fig_6**.
+<p align="center">
+<img align="middle" src="https://github.com/JKZuo/Diff-DGMN/blob/main/Figures/Fig_6.png" width="600"/>
+</p>
+<p align = "center">
+<b>Figure 6. Performance with different noise schedules. </b> 
+</p>
+
+Furthermore, the Fisher divergence is proposed to optimize the time-dependent score-based neural network sθ(Lu(t), t) to estimate this actual marginal probability ∇_Lu log pt(Lu), which
+makes the Diff-DGMN model sample a more fine-grained location that is close to the target POI. We conducted experiments across five datasets, and the results are presented in **Fig. 7**.
+<p align="center">
+<img align="middle" src="https://github.com/JKZuo/Diff-DGMN/blob/main/Figures/Fig_7.png"/>
+</p>
+<p align = "center">
+<b>Figure 7.  Diffusion with different Fisher divergence weights ζ on five heterogeneous datasets. </b> 
+</p>
+
 ## Cite
 If you feel that this work has been helpful for your research, please cite it as: 
 
