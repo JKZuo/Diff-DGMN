@@ -5,30 +5,30 @@ Diff-DGMN: A Diffusion-based Dual Graph Multi-attention Network for POI Recommen
 -  ***Novel Diffusion-based User Preference Sampling (DiffGenerator)***: leverage the Variance-Preserving Stochastic Differential Equation (VP-SDE) to sample user future preferences by reverse-time generation.
 -  ***Pure (noise-free) Location Archetype Vector***: capable of depicting the diffusion path from a source distribution to the target distribution and allowing for the exploration of evolving user interests.
 
-The overall framework of our proposed Diff-DGMN model is illustrated in **Fig_2**.
+The overall framework of our proposed Diff-DGMN model is illustrated in **Fig_1**.
 <p align="center">
-<img align="middle" src="https://github.com/JKZuo/Diff-DGMN/blob/main/Figs/fig2.pdf"/>
+<img align="middle" src="https://github.com/JKZuo/Diff-DGMN/blob/main/Figures/Fig_1.png"/>
 </p>
 <p align = "center">
-<b>Figure 2. The overall framework of the proposed Diffusion-based Dual Graph Multi-attention Network (Diff-DGMN) model. </b> 
+<b>Figure 1. The overall framework of the proposed Diffusion-based Dual Graph Multi-attention Network (Diff-DGMN) model. </b> 
 </p>
 
 ## Methodology
-In order to capture individual user visit preferences and behavior patterns, and reflect the local regularity of user transitions between different POIs, we propose a direction-aware sequence graph multi-scale representation module to gain the POI sequence encoding on the user-oriented POI transition graph. The detailed process is depicted in **Fig_3**.
+In order to capture individual user visit preferences and behavior patterns, and reflect the local regularity of user transitions between different POIs, we propose a direction-aware sequence graph multi-scale representation module to gain the POI sequence encoding on the user-oriented POI transition graph. The detailed process is depicted in **Fig_2**.
 <p align="center">
-<img align="middle" src="https://github.com/JKZuo/Diff-DGMN/blob/main/Figs/fig3.pdf"/>
+<img align="middle" src="https://github.com/JKZuo/Diff-DGMN/blob/main/Figures/Fig_2.png"/>
 </p>
 <p align = "center">
-<b>Figure 3. The direction-aware sequence graph multi-scale representation module. </b> 
+<b>Figure 2. The direction-aware sequence graph multi-scale representation module. </b> 
 </p>
 
 Inspired by the achievements in diffusion models, we propose a Diffusion-based User Preference Sampling module to generate a pure (noise-free) location archetype vector from noise, leveraging the variance-preserving stochastic differential equation (VP-SDE). Specifically, this module is divided into two steps: 1) Forward VP-SDE Diffusion Process; and 2) Reverse-time VP-SDE Generation Process. The forward diffusion process aims to convert the pure ground truth (target POI) into noise by continuous time sampling. 
-Then build a model to learn this relative reverse-time process, step by step eliminate noise, and reconstruct the original pure ground truth. It can be described as shown in **Fig_4**.
+Then build a model to learn this relative reverse-time process, step by step eliminate noise, and reconstruct the original pure ground truth. It can be described as shown in **Fig_3**.
 <p align="center">
-<img align="middle" src="https://github.com/JKZuo/Diff-DGMN/blob/main/Figs/fig4.pdf" width="700"/>
+<img align="middle" src="https://github.com/JKZuo/Diff-DGMN/blob/main/Figures/Fig_3.png" width="750"/>
 </p>
 <p align = "center">
-<b>Figure 4. Illustration of forward diffusion and reverse generation. </b> 
+<b>Figure 3. Illustration of forward diffusion and reverse generation. </b> 
 </p>
 
 ## Requirements
@@ -69,6 +69,16 @@ where 5. Global-scale Check-in Dataset with User Social Networks.
 
 This dataset includes long-term (about 22 months from Apr. 2012 to Jan. 2014) global-scale check-in data collected from Foursquare.
 The check-in dataset contains 22,809,624 check-ins by 114,324 users on 3,820,891 venues.
+
+We evaluate our proposed Diff-DGMN model on five cities: Istanbul (IST) in Turkey, Jakarta (JK) in Indonesia, Sao Paulo (SP) in Brazil, New York City (NYC), and Los Angeles (LA) in the USA. 
+They are all collected from the most popular location-based social networks (LBSNs) service providers--Foursquare. 
+The time range of all datasets is about 22 months from Apr. 2012 to Jan. 2014. The detailed statistics are summarized in **Fig_4**.
+<p align="center">
+<img align="middle" src="https://github.com/JKZuo/Diff-DGMN/blob/main/Figures/Fig_4.png" width="550"/>
+</p>
+<p align = "center">
+<b>Figure 4. Basic data statistics of five cities. </b> 
+</p>
 
 ## Running
 **Attention: Please modify the datasets in your path: DATA_PATH = '../DiffDGMN/data/processed' in the **[gol.py]** file
