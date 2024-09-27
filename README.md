@@ -57,14 +57,23 @@ nohup python main.py --dataset LA --gpu 0 --dp 0.4 > LA.log 2>&1 &
 If you feel that this work has been helpful for your research, please cite it as: 
 @ARTICLE{
   10640103,
+  
   author={Zuo, Jiankai and Zhang, Yaying},
+  
   journal={IEEE Internet of Things Journal}, 
+  
   title={Diff-DGMN: A Diffusion-Based Dual Graph Multi-Attention Network for POI Recommendation}, 
+  
   year={2024},
+  
   volume={},
+  
   number={},
+  
   pages={1-1},
+  
   doi={10.1109/JIOT.2024.3446048}
+
   }
 
 J. Zuo and Y. Zhang, "Diff-DGMN: A Diffusion-Based Dual Graph Multi-Attention Network for POI Recommendation," in IEEE Internet of Things Journal, early access, doi: 10.1109/JIOT.2024.3446048.
