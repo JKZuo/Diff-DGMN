@@ -4,7 +4,32 @@ Diff-DGMN: A Diffusion-based Dual Graph Multi-attention Network for POI Recommen
 -  ***Dual-graph-driven Representation***: Direction-aware Sequence Graph Multi-scale Representation Module (SeqGraphRep) and Global-based Distance Graph Geographical Representation Module (DisGraphRep).
 -  ***Novel Diffusion-based User Preference Sampling (DiffGenerator)***: leverage the Variance-Preserving Stochastic Differential Equation (VP-SDE) to sample user future preferences by reverse-time generation.
 -  ***Pure (noise-free) Location Archetype Vector***: capable of depicting the diffusion path from a source distribution to the target distribution and allowing for the exploration of evolving user interests.
-![model](https://github.com/JKZuo/Diff-DGMN/assets/73583962/e7a5de80-2a4b-4cc2-bd49-9f6ca1bcdaed)
+
+The overall framework of our proposed Diff-DGMN model is illustrated in **Fig_1**.
+<p align="center">
+<img align="middle" src="https://github.com/JKZuo/Diff-DGMN/blob/main/Fig_1.png"/>
+</p>
+<p align = "center">
+<b>Figure 1. The overall framework of the proposed Diffusion-based Dual Graph Multi-attention Network (Diff-DGMN) model. </b> 
+</p>
+
+## Methodology
+In order to capture individual user visit preferences and behavior patterns, and reflect the local regularity of user transitions between different POIs, we propose a direction-aware sequence graph multi-scale representation module to gain the POI sequence encoding on the user-oriented POI transition graph. The detailed process is depicted in **Fig_2**.
+<p align="center">
+<img align="middle" src="https://github.com/JKZuo/Diff-DGMN/blob/main/Fig_2.png"/>
+</p>
+<p align = "center">
+<b>Figure 2. The direction-aware sequence graph multi-scale representation module. </b> 
+</p>
+
+Inspired by the achievements in diffusion models, we propose a Diffusion-based User Preference Sampling module to generate a pure (noise-free) location archetype vector from noise, leveraging the variance-preserving stochastic differential equation (VP-SDE). Specifically, this module is divided into two steps: 1) Forward VP-SDE Diffusion Process; and 2) Reverse-time VP-SDE Generation Process. The forward diffusion process aims to convert the pure ground truth (target POI) into noise by continuous time sampling. 
+Then build a model to learn this relative reverse-time process, step by step eliminate noise, and reconstruct the original pure ground truth. It can be described as shown in **Fig_4**.
+<p align="center">
+<img align="middle" src="https://github.com/JKZuo/Diff-DGMN/blob/main/Fig_3.png" width="700"/>
+</p>
+<p align = "center">
+<b>Figure 3. Illustration of forward diffusion and reverse generation. </b> 
+</p>
 
 ## Requirements
 The code has been tested running under Python 3.8.
@@ -16,10 +41,6 @@ The required packages are as follows:
 - torch_geometric == 2.3.1
 - pandas == 2.0.3
 - numpy == 1.23.3
-  
-<p align="center">
-<img align="middle" src="https://github.com/JKZuo/Diff-DGMN/blob/main/f4.pdf" width="650" />
-</p>
 
 ## Data
 Due to the large datasets (the data file uploaded by GitHub cannot be larger than 25MB), you can download them through this Baidu Cloud link:
