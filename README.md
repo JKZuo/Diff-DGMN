@@ -146,6 +146,11 @@ or
 keywords---Diffusion models; POI recommendation; Graph neural network; Self-attention; Location-based social networks; Long short term memory; Social networking (online); Semantics; Recurrent neural networks; Internet of Things.
 
 # Acknowledgements
-If you want to learn more about **Diffusion Models**, you can refer to these repositories: [Torch-SDE](https://github.com/google-research/torchsde?tab=readme-ov-file), [Diffusion_Tutorial](https://github.com/sunlin-ai/diffusion_tutorial), & [Stochastic Differential Equations (SDE)](https://pypi.org/project/sdeint/). 
+If you want to learn more about **Diffusion Models**, you can refer to these repositories: 
+* [Torch-SDE](https://github.com/google-research/torchsde?tab=readme-ov-file)
+* [Diffusion-Tutorial](https://github.com/sunlin-ai/diffusion_tutorial)
+* [Stochastic-Differential-Equations (SDE)](https://pypi.org/project/sdeint/)
+* [Diffusion for POI Recommendation](https://github.com/Yifang-Qin/Diff-POI)
+* [Diffusion for Sequential Recommendation](https://github.com/WHUIR/DiffuRec)
 
 ***We appreciate the efforts of these scholars and their excellent work.***
