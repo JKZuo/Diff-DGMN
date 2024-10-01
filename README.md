@@ -1,7 +1,8 @@
 # Diff-DGMN
 
-[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![Python 3.8](https://img.shields.io/badge/Python-3.8-blue.svg)
+![Code](https://img.shields.io/badge/Code-python-purple)
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 Diff-DGMN: A Diffusion-based Dual Graph Multi-attention Network for POI Recommendation
 
