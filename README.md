@@ -149,7 +149,7 @@ If you want to learn more about **Diffusion Models**, you can refer to these rep
 * [Google-Torch-SDE](https://github.com/google-research/torchsde?tab=readme-ov-file)
 * [Diffusion-Tutorial](https://github.com/sunlin-ai/diffusion_tutorial)
 * [Stochastic-Differential-Equations (SDE)](https://pypi.org/project/sdeint/)
-* [Diffusion for Recommendation](https://github.com/Yifang-Qin/Diff-POI)
+* [Diffusion for POI Recommendation](https://github.com/Yifang-Qin/Diff-POI)
 * [Diffusion for Sequential Recommendation](https://github.com/WHUIR/DiffuRec)
 * [Score-based Diffusion via SDE](https://github.com/yang-song/score_sde)
 * [DDPM](https://github.com/hojonathanho/diffusion)
