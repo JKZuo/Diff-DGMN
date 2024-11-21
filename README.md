@@ -4,7 +4,7 @@
 ![Code](https://img.shields.io/badge/Code-python-purple)
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Diff-DGMN: A Diffusion-based Dual Graph Multi-attention Network for POI Recommendation
+Diff-DGMN: A Diffusion-Based Dual Graph Multiattention Network for POI Recommendation
 
 -  ***Dual-graph-driven Representation***: Direction-aware Sequence Graph Multi-scale Representation Module (SeqGraphRep) and Global-based Distance Graph Geographical Representation Module (DisGraphRep).
 -  ***Novel Diffusion-based User Preference Sampling (DiffGenerator)***: leverage the Variance-Preserving Stochastic Differential Equation (VP-SDE) to sample user future preferences by reverse-time generation.
@@ -125,7 +125,7 @@ makes the Diff-DGMN model sample a more fine-grained location that is close to t
 ## Cite
 If you feel that this work has been helpful for your research, please cite it as: 
 
-- J. Zuo and Y. Zhang, "Diff-DGMN: A Diffusion-Based Dual Graph Multi-Attention Network for POI Recommendation," in IEEE Internet of Things Journal, Early Access, https://doi.org/10.1109/JIOT.2024.3446048.
+- J. Zuo and Y. Zhang, "Diff-DGMN: A Diffusion-Based Dual Graph Multiattention Network for POI Recommendation," in IEEE Internet of Things Journal, vol. 11, no. 23, pp. 38393-38409, 1 Dec.1, 2024, doi: 10.1109/JIOT.2024.3446048.
 
 or
 
@@ -133,12 +133,12 @@ or
 @ARTICLE{Diff-DGMN,
   author={Zuo, Jiankai and Zhang, Yaying},
   journal={IEEE Internet of Things Journal}, 
-  title={Diff-DGMN: A Diffusion-Based Dual Graph Multi-Attention Network for POI Recommendation}, 
+  title={Diff-DGMN: A Diffusion-Based Dual Graph Multiattention Network for POI Recommendation}, 
   year={2024},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/JIOT.2024.3446048}
+  volume={11},
+  number={23},
+  pages={38393-38409},
+  doi={10.1109/JIOT.2024.3446048},
   publisher={IEEE}
 }
 ```
