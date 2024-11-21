@@ -125,7 +125,7 @@ makes the Diff-DGMN model sample a more fine-grained location that is close to t
 ## Cite
 If you feel that this work has been helpful for your research, please cite it as: 
 
-- J. Zuo and Y. Zhang, "Diff-DGMN: A Diffusion-Based Dual Graph Multiattention Network for POI Recommendation," in IEEE Internet of Things Journal, vol. 11, no. 23, pp. 38393-38409, 1 Dec.1, 2024, doi: 10.1109/JIOT.2024.3446048.
+- J. Zuo and Y. Zhang, "Diff-DGMN: A Diffusion-Based Dual Graph Multiattention Network for POI Recommendation," in IEEE Internet of Things Journal, vol. 11, no. 23, pp. 38393-38409, 1 Dec.1, 2024, doi: https://doi.org/10.1109/JIOT.2024.3446048.
 
 or
 
